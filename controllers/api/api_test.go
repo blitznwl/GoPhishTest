@@ -8,8 +8,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gophish/gophish/config"
-	"github.com/gophish/gophish/models"
+	"github.com/blitznwl/GoPhishTest/config"
+	"github.com/blitznwl/GoPhishTest/models"
 )
 
 type testContext struct {

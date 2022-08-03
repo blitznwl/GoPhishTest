@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	log "github.com/gophish/gophish/logger"
+	log "github.com/blitznwl/GoPhishTest/logger"
 )
 
 // AdminServer represents the Admin server configuration details
