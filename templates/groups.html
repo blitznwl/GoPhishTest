@@ -27,6 +27,8 @@
                     <th>Name</th>
                     <th># of Members</th>
                     <th>Modified Date</th>
+                    <th>policy ID</th>
+                    <th>Org Id</th>
                     <th class="col-md-2 no-sort"></th>
                 </tr>
             </thead>
@@ -50,6 +52,16 @@
                 <label class="control-label" for="name">Name:</label>
                 <div class="form-group">
                     <input type="text" class="form-control" ng-model="group.name" placeholder="Group name" id="name"
+                        autofocus />
+                </div>
+                <label class="control-label" for="name">Name:</label>
+                <div class="form-group">
+                    <input type="text" class="form-control" ng-model="group.policy_id" placeholder="policy_id" id="policy_id"
+                        autofocus />
+                </div>
+                <label class="control-label" for="name">organization_id:</label>
+                <div class="form-group">
+                    <input type="text" class="form-control" ng-model="group.organization_id" placeholder="organization_id" id="organization_id"
                         autofocus />
                 </div>
                 <div class="form-group">
